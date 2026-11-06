@@ -27,7 +27,7 @@ No Arduino IDE needed. Everything else (PlatformIO, pyserial, the LoRa library) 
 ## Quick start
 
 ```bash
-git clone https://github.com/<you>/lora-file-transfer
+git clone https://github.com/PlutoXXIV/file_transfer_lora_arduino
 cd lora-file-transfer
 ```
 
