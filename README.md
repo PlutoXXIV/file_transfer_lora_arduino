@@ -27,10 +27,10 @@ No Arduino IDE needed. Everything else (PlatformIO, pyserial, the LoRa library) 
 ## Quick start
 
 ### If you dont have Git installed - 
-- you can manually download the zip of this project from the green colored 'code'
+- you can manually download the zip of this project from the green colored 'code' button
 - then extract the folder to your desired location
 - open the terminal and go to that location
-- then continue from stem 1. Flash the two boards
+- then continue from step 1. Flash the two boards
 
 ### or install git and follow the below instructions
 
