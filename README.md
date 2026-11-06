@@ -26,27 +26,30 @@ No Arduino IDE needed. Everything else (PlatformIO, pyserial, the LoRa library) 
 
 ## Quick start
 
-```bash
+### if you dont have Git installed, you can manually download the zip of this project from the green colored 'code' button
+### or install git and follow the below instructions
+
+```terminal
 git clone https://github.com/PlutoXXIV/file_transfer_lora_arduino
 cd lora-file-transfer
 ```
 
 **1. Flash the two boards** (one at a time; the first build takes a few minutes)
 
-```bash
+```terminal
 python lora.py flash --node a      # plug in board A, run, then unplug
 python lora.py flash --node b      # plug in board B, run
 ```
 
 **2. Receive** (on the receiving laptop, board B plugged in)
 
-```bash
+```terminal
 python lora.py receive
 ```
 
 **3. Send** (on the sending laptop, board A plugged in)
 
-```bash
+```terminal
 python lora.py send myfile.pdf
 ```
 
